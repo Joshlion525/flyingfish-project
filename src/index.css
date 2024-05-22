@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	padding: 0;
+	margin: 0;
+}
+.backGround {
+	background-image: linear-gradient(hsl(204, 93%, 38%), hsl(204, 95%, 18%));
+}
+.span {
+	padding: 0.1rem 0.6rem;
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(0, 100%, 50%);
+}
